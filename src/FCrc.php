@@ -7,7 +7,7 @@ class FCrc
      * @param string $string
      * @return int
      */
-    public function StrCrc32(string $string): int
+    public static function StrCrc32(string $string): int
     {
         $CRCTablesSB8 = array(
             0x00000000,
