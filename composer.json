@@ -1,0 +1,38 @@
+{
+  "name": "pkshetlie/phpfcrc",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "description": "Crc32 compatibility between Unreal Engine and PHP",
+  "homepage": "https://github.com/pkshetlie/settings-bundle",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkshetlie\\PhpUE\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Pierrick POBELLE",
+      "email": "pierrick.pobelle@gmail.com",
+      "homepage": "http://pierrick.pobelle.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Fabien LOISON",
+      "homepage": "https://github.com/flozz",
+      "role": "Developer"
+    },
+    {
+      "name": "Crypt0-M3lon",
+      "homepage": "https://github.com/Crypt0-M3lon",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
